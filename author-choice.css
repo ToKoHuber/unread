@@ -1,0 +1,158 @@
+/* card */
+.editor-choice-header {
+  max-width: 930px;
+  height: 27px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 28px;
+}
+.editor-choice-header p {
+  color: #fff;
+}
+.editor-choice-button {
+  width: 53px;
+  height: 27px;
+  background-color: #fafafa;
+  border-radius: 12px;
+}
+.editor-choice-cards {
+  width: 1116px;
+  display: flex;
+  gap: 18px;
+  margin: 20px 20px 97px 20px;
+  margin: auto;
+  overflow-x: scroll;
+}
+.editor-choice-cards > div {
+  background-color: aqua;
+  height: 300px;
+  min-width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  /* display: flex; */
+}
+
+/* card backgrounds  */
+
+.card-1 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2567620798319328) 0%,
+      rgba(0, 0, 0, 1) 88%
+    ),
+    url("./aut-1.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-2 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2567620798319328) 0%,
+      rgba(0, 0, 0, 1) 88%
+    ),
+    url("./aut2.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-3 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2567620798319328) 0%,
+      rgba(0, 0, 0, 1) 88%
+    ),
+    url("./aut3.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-4 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2567620798319328) 0%,
+      rgba(0, 0, 0, 1) 88%
+    ),
+    url("./aut4.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-5 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2567620798319328) 0%,
+      rgba(0, 0, 0, 1) 88%
+    ),
+    url("./aut5.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-6 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2567620798319328) 0%,
+      rgba(0, 0, 0, 1) 88%
+    ),
+    url("./aut-6.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-7 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2567620798319328) 0%,
+      rgba(0, 0, 0, 1) 88%
+    ),
+    url("./aut-7.jpg");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* card text aligns */
+
+.reading-time {
+  color: #fff;
+  text-align: end;
+  padding: 10px 20px 0px 0px;
+  font-weight: 900px;
+}
+
+.editor-choice-cards h2 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.category {
+  color: #fff;
+  text-align: center;
+  width: 150px;
+  background-color: #0078f6;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 10px;
+  padding: 5px 0 5px 0;
+}

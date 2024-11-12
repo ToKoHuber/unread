@@ -1,0 +1,64 @@
+.articles {
+  max-width: 1116px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+/* text section: эцэгт нэг янзаар өгсөн */
+.articles h2 {
+  color: #000;
+  padding-top: 3px;
+  font-size: 12.6px;
+}
+.articles h3 {
+  color: #888888;
+  font-size: 12.6px;
+}
+.articles h4 {
+  color: #0078f6;
+  font-size: 12.6px;
+}
+.articles h5 {
+  color: #000;
+  font-size: 21.6px;
+  font-weight: 700px;
+}
+
+/* article section */
+.article {
+  margin-bottom: 44px;
+}
+.article-author {
+  display: flex;
+  gap: 10px;
+  max-width: 739px;
+}
+.article-author img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+.article-author-article {
+  display: flex;
+  max-width: 739px;
+  padding: 28px 65px 20px 61px;
+  margin-top: 13px;
+  background-color: rgb(255, 255, 255);
+  border-bottom-left-radius: 27px;
+  border-bottom-right-radius: 27px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 27px;
+  justify-content: space-between;
+}
+.article-author-article img {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+/* .article:nth-child(odd) {
+  align-self: ;
+} */
+.article:nth-child(even) {
+  align-self: flex-end;
+}
